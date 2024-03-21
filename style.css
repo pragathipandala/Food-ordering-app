@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-item {
+    @apply m-6 text-zinc-800 hover:text-white font-semibold hover:duration-150 cursor-pointer border-b-2 border-white border-opacity-0 hover:border-opacity-100;
+  }
+}
